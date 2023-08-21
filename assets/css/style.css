@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(88, 167, 241);
+    border-bottom: 2px  solid  rgb(95, 68, 145);}
+h2{
+    font-size: 50px;}
+
+h3{
+    font-size: 30px;}
+
+header{
+    height: 30px;
+    background-color: rgba(2, 63, 175, 0.986);}
+
+.head ul{
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;}
+
+
+ul li{
+    list-style: none;
+    text-decoration: none;}
+
+ ul li a{
+        color: white;
+        text-decoration: none;}
+/* start Welcome  */
+#Welcome{
+    height: 800px;
+    padding-top: 397px;
+    background-image: url(../images/building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Welcome .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+}
+#Welcome h1{
+    font-size: 50px;
+    background-color: azure;
+    color: #020141;
+    opacity: 0.7;
+}
+
+/* end Welcome  */
+
+/* start section aboutus */
+
+#aboutus{
+    height: 500px;
+    width: auto;
+    padding-top: 190px;
+    background-color: rgba(206, 218, 240, 0.986);
+    
+}
+
+#aboutus .container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+#aboutus p{
+    margin-top: 30px;}
+/* end section aboutus */
+
+/* start section ourservices */
+
+#ourservices {
+    height: 500px;
+    padding-top: 140px;
+    background-color: #6288cf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#ourservices .container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#ourservices .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+#ourservices p{
+    margin-top: 10px;}
+
+/* end section ourservices */
+
+/* start section specializations */
+#specializations{
+    height: 500px;
+    padding-top: 130px;
+    background-color: rgba(206, 218, 240, 0.986);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#specializations .container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#specializations .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+#specializations h3{
+    margin-bottom: 20px;}
+/* end section specializations */
+
+/* start section ourteachers */
+#ourteachers{
+    height: 500px;
+    padding-top: 90px;
+    background-color: #6288cf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+#ourteachers .container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#ourteachers .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#ourteachers  img{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+#ourteachers  h3{
+    margin-bottom: 30px;
+}
+/* end section ourteachers */
+
+
+/* start section plans */
+#plans{
+    height: 700px;
+    padding-top: 60px;
+    background-color: rgba(206, 218, 240, 0.986);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#plans .container{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#plans .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 60px;
+    background-color: #9caecf;
+    border-radius: 5%;}
+
+#plans ul li{
+    list-style: disc;
+    margin-left: 10px;
+}
+
+#plans .box{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #6288cf;
+    border-radius: 2%;
+}
+#plans .card img{
+    width: 200px;
+    margin: 15px;
+}
+/* end section plans */
+
+
+/* start section contactus */
+#contact{
+    height: 600px;
+    padding-top: 50px;
+    background-color: #6288cf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact .container{
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+    
+#contact h2 {
+    margin-bottom: 30px;
+}
+#contact .cont1 {
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact input{
+    padding: 0px 150px;
+
+}
+#contact .message{
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+#contact button{
+    color: white;
+    background-color: black;
+    width:200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px 10px;
+    cursor: pointer;
+
+}
+#contact .cont2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+    
+
+
+/* start footer */
+#followus{
+    
+    height: 30px;
+    background-color: rgba(2, 63, 175, 0.986);
+  
+}    
+#followus .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#followus ul{
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;}
+
+#followus ul li{
+        list-style: none;
+        margin-left: 10px;
+    }
+/* end footer */
+
+
+
